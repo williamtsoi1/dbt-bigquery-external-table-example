@@ -1,0 +1,14 @@
+version: 2
+
+sources:
+  - name: dataset
+    # database: analytics
+    loader: gcloud storage
+  
+    tables:
+      - name: hktds_avg_data
+        description: "External table of Club HKT data stored in Parquet files in Cloud Storage"
+        external:
+          location: 'gs://williamtsoi-dbt/hktds_avg_data_*'
+          options:
+            format: parquet

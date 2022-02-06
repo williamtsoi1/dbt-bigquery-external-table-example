@@ -1,0 +1,27 @@
+
+
+============================== 2022-02-06 13:39:15.239946 | 06a57eca-3600-4659-b427-3c22855a6871 ==============================
+13:39:15.239946 [info ] [MainThread]: Running with dbt=1.0.1
+13:39:15.240378 [debug] [MainThread]: running dbt with arguments Namespace(record_timing_info=None, debug=None, log_format=None, write_json=None, use_colors=None, printer_width=None, warn_error=None, version_check=None, partial_parse=None, single_threaded=False, use_experimental_parser=None, static_parser=None, profiles_dir='/Users/williamtsoi/.dbt', send_anonymous_usage_stats=None, fail_fast=None, event_buffer_size=None, project_dir=None, profile=None, target=None, vars='{}', log_cache_events=False, project_name=None, skip_profile_setup=False, defer=None, state=None, cls=<class 'dbt.task.init.InitTask'>, which='init', rpc_method=None)
+13:39:15.240576 [debug] [MainThread]: Tracking: tracking
+13:39:15.267187 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10981aee0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10981adf0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10981ae80>]}
+13:39:15.269270 [info ] [MainThread]: Creating dbt configuration folder at /Users/williamtsoi/.dbt
+13:39:30.953529 [debug] [MainThread]: Starter project path: /usr/local/Cellar/dbt-bigquery/1.0.0_1/libexec/lib/python3.9/site-packages/dbt/include/starter_project
+13:40:14.145915 [info ] [MainThread]: Profile airflow-dbt-bigquery-example written to /Users/williamtsoi/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+13:40:14.146879 [info ] [MainThread]: 
+Your new dbt project "airflow-dbt-bigquery-example" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+13:40:14.147657 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10981a1c0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10981a5b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x10981a700>]}
